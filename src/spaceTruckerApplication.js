@@ -49,7 +49,7 @@ class SpaceTruckerApplication {
     }
 
     async initialize() {
-        this._engine.enterFullscreen(true);
+        // this._engine.enterFullscreen(true);
 
         // note: this will be replaced with the call done internally from AssetManager at some point
         this._engine.displayLoadingUI();
