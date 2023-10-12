@@ -11,7 +11,8 @@ const devConfig = {
         compress: true,
         hot: true,
         open: true,
-        publicPath: "/"
+        publicPath: "/",
+        port:8000
     }
 };
 module.exports = merge(common, devConfig);
